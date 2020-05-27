@@ -1,0 +1,16 @@
+C:\Users\gavin.edwards\Documents\InventoryApp\InventoryService\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\gavin.edwards\Documents\InventoryApp\InventoryService\bin\Debug\netcoreapp2.1\InventoryService.deps.json
+C:\Users\gavin.edwards\Documents\InventoryApp\InventoryService\bin\Debug\netcoreapp2.1\InventoryService.runtimeconfig.json
+C:\Users\gavin.edwards\Documents\InventoryApp\InventoryService\bin\Debug\netcoreapp2.1\InventoryService.runtimeconfig.dev.json
+C:\Users\gavin.edwards\Documents\InventoryApp\InventoryService\bin\Debug\netcoreapp2.1\InventoryService.dll
+C:\Users\gavin.edwards\Documents\InventoryApp\InventoryService\obj\Debug\netcoreapp2.1\InventoryService.csprojAssemblyReference.cache
+C:\Users\gavin.edwards\Documents\InventoryApp\InventoryService\obj\Debug\netcoreapp2.1\InventoryService.RazorAssemblyInfo.cache
+C:\Users\gavin.edwards\Documents\InventoryApp\InventoryService\obj\Debug\netcoreapp2.1\InventoryService.RazorAssemblyInfo.cs
+C:\Users\gavin.edwards\Documents\InventoryApp\InventoryService\obj\Debug\netcoreapp2.1\InventoryService.AssemblyInfoInputs.cache
+C:\Users\gavin.edwards\Documents\InventoryApp\InventoryService\obj\Debug\netcoreapp2.1\InventoryService.AssemblyInfo.cs
+C:\Users\gavin.edwards\Documents\InventoryApp\InventoryService\obj\Debug\netcoreapp2.1\InventoryService.RazorTargetAssemblyInfo.cache
+C:\Users\gavin.edwards\Documents\InventoryApp\InventoryService\obj\Debug\netcoreapp2.1\InventoryService.genruntimeconfig.cache
+C:\Users\gavin.edwards\Documents\InventoryApp\InventoryService\bin\Debug\netcoreapp2.1\InventoryService.pdb
+C:\Users\gavin.edwards\Documents\InventoryApp\InventoryService\obj\Debug\netcoreapp2.1\InventoryService.csproj.CoreCompileInputs.cache
+C:\Users\gavin.edwards\Documents\InventoryApp\InventoryService\obj\Debug\netcoreapp2.1\InventoryService.dll
+C:\Users\gavin.edwards\Documents\InventoryApp\InventoryService\obj\Debug\netcoreapp2.1\InventoryService.pdb

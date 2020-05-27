@@ -1,0 +1,5 @@
+{
+	"ConnectionStrings": {
+		"ChallengesConnectionString":"server=(localdb)\\ProjectsV13;Database=ChallengesDb;Integrated Security = true;MultipleActiveResultSets=true;"
+	}
+}
