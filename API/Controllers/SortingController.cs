@@ -28,6 +28,8 @@ namespace Challenges.Controllers
         {
             List<char> asList = collection.ToList();
             
+
+
             var sorted = _services.Sort(asList);
             _unit.SortingRepo.SaveSortingToDatabase(asList, sorted);
             return sorted;

@@ -4,14 +4,16 @@ using Challenges.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Challenges.Migrations
 {
     [DbContext(typeof(ChallengesContext))]
-    partial class ChallengesContextModelSnapshot : ModelSnapshot
+    [Migration("20200528135026_New5")]
+    partial class New5
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -116,8 +118,6 @@ namespace Challenges.Migrations
                     b.Property<string>("Character")
                         .IsRequired()
                         .HasConversion(new ValueConverter<string, string>(v => default(string), v => default(string), new ConverterMappingHints(size: 1)));
-
-                    b.Property<int>("CharacterNumber");
 
                     b.Property<int?>("SortingInputId");
 

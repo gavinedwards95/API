@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
@@ -10,7 +11,9 @@ namespace Challenges.Data.Entities
     {
         public int Id { get; set; }
 
-        public List<char> CharacterCollection { get; set; }
+        public ICollection<SortingValuesForInput> InputCharacterCollection { get; set; } = new List<SortingValuesForInput>();
+
         
+
     }
 }

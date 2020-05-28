@@ -22,8 +22,8 @@ namespace Challenges.Data
         public DbSet<Factorial> Factorials { get; set; }
         public DbSet<StringInversion> StringInversions { get; set; }
         public DbSet<WhiteSpaceRemoval> WhiteSpcaeRemovals { get; set; }
-        //public DbSet<SortingInput> CharacterSortingInputs { get; set; }
-        //public DbSet<SortingOutput> CharacterSortingOutputs { get; set; }
+        public DbSet<SortingInput> InputtedCharacters { get; set; }
+        public DbSet<SortingOutput> OutputtedCharacters { get; set; }
         
     }
 }

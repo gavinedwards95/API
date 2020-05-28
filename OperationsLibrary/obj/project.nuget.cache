@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oAezKvBMXnIcjNJ82BNng/Se7EK2EshhCqltNO9cFGMxGXEIYbT+AgNLcagXO5nqHj3DlzAy7q2fsfs77mtLAQ==",
+  "dgSpecHash": "UHLQUGTWj1wxCQLPh8gyQU7OM2+zkvAd0mobvRUun/Kky8VcLZEqCW+A27vMgJKnCHQHTTXgkCn1+XojL2pQ1w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gavin.edwards\\Documents\\TrainingApp\\OperationsLibrary\\OperationsLibrary.csproj",
+  "projectFilePath": "C:\\Users\\gavin.edwards\\Documents\\TrainingAppV2\\OperationsLibrary\\OperationsLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gavin.edwards\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\gavin.edwards\\.nuget\\packages\\microsoft.entityframeworkcore\\2.1.14\\microsoft.entityframeworkcore.2.1.14.nupkg.sha512",

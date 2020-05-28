@@ -1,4 +1,6 @@
-﻿using Challenges.Data.Entities;
+﻿
+using Challenges.Data;
+using Challenges.Data.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,18 +18,28 @@ namespace Challenges.Data.Repos
             _context = context;
         }
 
-        public void SaveSortingToDatabase(List<char> characters, List<char> result)
+        public void SaveSortingToDatabase(List<char> unordered, List<char> ordered)
         {
-            SortingInput sortIn = new SortingInput();
-            SortingOutput sortOut = new SortingOutput();
-            sortIn.CharacterCollection = characters;
-            sortOut.Result = result;
-           // _context.CharacterSortingInputs.Add(sortIn);
-           // _context.CharacterSortingOutputs.Add(sortOut);
+            SortingInput UnorderedCollection = new SortingInput();
+
+            SortingOutput OrderedCollection = new SortingOutput();
+
+            int i = 1;
+            foreach(char character in unordered)
+            {  
+                UnorderedCollection.InputCharacterCollection.Add(new SortingValuesForInput(i,character));
+                i++;
+            }
+
+            foreach (char letter in ordered)
+            {
+                OrderedCollection.OutputCharacterCollection.Add(new SortingValuesForOutput(letter));
+            }
+
+            _context.InputtedCharacters.Add(UnorderedCollection);
+            _context.OutputtedCharacters.Add(OrderedCollection);
+            //    _context.CharacterSortingOutputs.Add(sortOut);
             _context.SaveChanges();
         }
-
-
-
     }
 }

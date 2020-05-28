@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+M+yxFG3rfW3lxwzJ0QmmJXLL7AGINgyJqam4/6OCIz61A1H+FEv5Ew578CvgoTCgR+cZgT0VCv3U5DLrO0PXA==",
+  "dgSpecHash": "DK+tlOk0fTpefRvbIoogAHq6uKWmzf/pULxfiAqrwFIlaEn/+K858TZIWa0voTG1+61n67mcYalEzbNEKuMl2g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gavin.edwards\\Documents\\TrainingApp\\API\\Challenges.csproj",
+  "projectFilePath": "C:\\Users\\gavin.edwards\\Documents\\TrainingAppV2\\API\\Challenges.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gavin.edwards\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\gavin.edwards\\.nuget\\packages\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",

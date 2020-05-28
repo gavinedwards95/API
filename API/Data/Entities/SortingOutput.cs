@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -9,7 +10,6 @@ namespace Challenges.Data.Entities
     {
         public int Id { get; set; }
 
-        public List<char> Result { get; set; }
-
+        public ICollection<SortingValuesForOutput> OutputCharacterCollection { get; set; } = new List<SortingValuesForOutput>();
     }
 }

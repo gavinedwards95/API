@@ -4,14 +4,16 @@ using Challenges.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Challenges.Migrations
 {
     [DbContext(typeof(ChallengesContext))]
-    partial class ChallengesContextModelSnapshot : ModelSnapshot
+    [Migration("20200528140314_new6")]
+    partial class new6
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -4,14 +4,16 @@ using Challenges.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Challenges.Migrations
 {
     [DbContext(typeof(ChallengesContext))]
-    partial class ChallengesContextModelSnapshot : ModelSnapshot
+    [Migration("20200528134213_New3")]
+    partial class New3
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -109,7 +111,7 @@ namespace Challenges.Migrations
 
             modelBuilder.Entity("Challenges.Data.Entities.SortingValuesForInput", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
@@ -117,11 +119,9 @@ namespace Challenges.Migrations
                         .IsRequired()
                         .HasConversion(new ValueConverter<string, string>(v => default(string), v => default(string), new ConverterMappingHints(size: 1)));
 
-                    b.Property<int>("CharacterNumber");
-
                     b.Property<int?>("SortingInputId");
 
-                    b.HasKey("Id");
+                    b.HasKey("ID");
 
                     b.HasIndex("SortingInputId");
 

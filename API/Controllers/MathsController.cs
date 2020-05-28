@@ -68,10 +68,19 @@ namespace Challenges.Controllers
         [Route("CalculateFactorialOf/{num1}")]
         public ActionResult<int> Factorial(int num1)
         {
-            var result = _services.CalculateFactorial(num1);
-            _unit.MathsRepo.SaveFactorialToDatabase(num1, result);
+            try
+            {
+                if (num1 < 0) throw new Exception();
+                var result = _services.CalculateFactorial(num1);
+                _unit.MathsRepo.SaveFactorialToDatabase(num1, result);
 
-            return result;
+                return result;
+            }
+            catch (Exception)
+            {
+                return StatusCode(400, "You cannot calculate the factorial of a negative number. Please enter a positive number");
+            }
+            
         }
 
     }

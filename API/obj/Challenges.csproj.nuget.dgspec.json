@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gavin.edwards\\Documents\\TrainingApp\\API\\Challenges.csproj": {}
+    "C:\\Users\\gavin.edwards\\Documents\\TrainingAppV2\\API\\Challenges.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gavin.edwards\\Documents\\TrainingApp\\API\\Challenges.csproj": {
+    "C:\\Users\\gavin.edwards\\Documents\\TrainingAppV2\\API\\Challenges.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gavin.edwards\\Documents\\TrainingApp\\API\\Challenges.csproj",
+        "projectUniqueName": "C:\\Users\\gavin.edwards\\Documents\\TrainingAppV2\\API\\Challenges.csproj",
         "projectName": "Challenges",
-        "projectPath": "C:\\Users\\gavin.edwards\\Documents\\TrainingApp\\API\\Challenges.csproj",
+        "projectPath": "C:\\Users\\gavin.edwards\\Documents\\TrainingAppV2\\API\\Challenges.csproj",
         "packagesPath": "C:\\Users\\gavin.edwards\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gavin.edwards\\Documents\\TrainingApp\\API\\obj\\",
+        "outputPath": "C:\\Users\\gavin.edwards\\Documents\\TrainingAppV2\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -31,8 +31,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Users\\gavin.edwards\\Documents\\TrainingApp\\OperationsLibrary\\OperationsLibrary.csproj": {
-                "projectPath": "C:\\Users\\gavin.edwards\\Documents\\TrainingApp\\OperationsLibrary\\OperationsLibrary.csproj"
+              "C:\\Users\\gavin.edwards\\Documents\\TrainingAppV2\\OperationsLibrary\\OperationsLibrary.csproj": {
+                "projectPath": "C:\\Users\\gavin.edwards\\Documents\\TrainingAppV2\\OperationsLibrary\\OperationsLibrary.csproj"
               }
             }
           }
@@ -90,14 +90,14 @@
         }
       }
     },
-    "C:\\Users\\gavin.edwards\\Documents\\TrainingApp\\OperationsLibrary\\OperationsLibrary.csproj": {
+    "C:\\Users\\gavin.edwards\\Documents\\TrainingAppV2\\OperationsLibrary\\OperationsLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gavin.edwards\\Documents\\TrainingApp\\OperationsLibrary\\OperationsLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\gavin.edwards\\Documents\\TrainingAppV2\\OperationsLibrary\\OperationsLibrary.csproj",
         "projectName": "OperationsLibrary",
-        "projectPath": "C:\\Users\\gavin.edwards\\Documents\\TrainingApp\\OperationsLibrary\\OperationsLibrary.csproj",
+        "projectPath": "C:\\Users\\gavin.edwards\\Documents\\TrainingAppV2\\OperationsLibrary\\OperationsLibrary.csproj",
         "packagesPath": "C:\\Users\\gavin.edwards\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gavin.edwards\\Documents\\TrainingApp\\OperationsLibrary\\obj\\",
+        "outputPath": "C:\\Users\\gavin.edwards\\Documents\\TrainingAppV2\\OperationsLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

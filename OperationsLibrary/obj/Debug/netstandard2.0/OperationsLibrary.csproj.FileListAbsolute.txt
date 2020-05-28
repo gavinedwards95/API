@@ -7,3 +7,12 @@ C:\Users\gavin.edwards\Documents\TrainingApp\OperationsLibrary\obj\Debug\netstan
 C:\Users\gavin.edwards\Documents\TrainingApp\OperationsLibrary\obj\Debug\netstandard2.0\OperationsLibrary.dll
 C:\Users\gavin.edwards\Documents\TrainingApp\OperationsLibrary\obj\Debug\netstandard2.0\OperationsLibrary.pdb
 C:\Users\gavin.edwards\Documents\TrainingApp\OperationsLibrary\obj\Debug\netstandard2.0\OperationsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\gavin.edwards\Documents\TrainingAppV2\OperationsLibrary\bin\Debug\netstandard2.0\OperationsLibrary.deps.json
+C:\Users\gavin.edwards\Documents\TrainingAppV2\OperationsLibrary\bin\Debug\netstandard2.0\OperationsLibrary.dll
+C:\Users\gavin.edwards\Documents\TrainingAppV2\OperationsLibrary\bin\Debug\netstandard2.0\OperationsLibrary.pdb
+C:\Users\gavin.edwards\Documents\TrainingAppV2\OperationsLibrary\obj\Debug\netstandard2.0\OperationsLibrary.csprojAssemblyReference.cache
+C:\Users\gavin.edwards\Documents\TrainingAppV2\OperationsLibrary\obj\Debug\netstandard2.0\OperationsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\gavin.edwards\Documents\TrainingAppV2\OperationsLibrary\obj\Debug\netstandard2.0\OperationsLibrary.AssemblyInfoInputs.cache
+C:\Users\gavin.edwards\Documents\TrainingAppV2\OperationsLibrary\obj\Debug\netstandard2.0\OperationsLibrary.AssemblyInfo.cs
+C:\Users\gavin.edwards\Documents\TrainingAppV2\OperationsLibrary\obj\Debug\netstandard2.0\OperationsLibrary.dll
+C:\Users\gavin.edwards\Documents\TrainingAppV2\OperationsLibrary\obj\Debug\netstandard2.0\OperationsLibrary.pdb

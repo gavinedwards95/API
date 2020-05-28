@@ -4,14 +4,16 @@ using Challenges.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Challenges.Migrations
 {
     [DbContext(typeof(ChallengesContext))]
-    partial class ChallengesContextModelSnapshot : ModelSnapshot
+    [Migration("20200528132141_New2")]
+    partial class New2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -107,46 +109,6 @@ namespace Challenges.Migrations
                     b.ToTable("OutputtedCharacters");
                 });
 
-            modelBuilder.Entity("Challenges.Data.Entities.SortingValuesForInput", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Character")
-                        .IsRequired()
-                        .HasConversion(new ValueConverter<string, string>(v => default(string), v => default(string), new ConverterMappingHints(size: 1)));
-
-                    b.Property<int>("CharacterNumber");
-
-                    b.Property<int?>("SortingInputId");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("SortingInputId");
-
-                    b.ToTable("SortingValuesForInput");
-                });
-
-            modelBuilder.Entity("Challenges.Data.Entities.SortingValuesForOutput", b =>
-                {
-                    b.Property<int>("ID")
-                        .ValueGeneratedOnAdd()
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Character")
-                        .IsRequired()
-                        .HasConversion(new ValueConverter<string, string>(v => default(string), v => default(string), new ConverterMappingHints(size: 1)));
-
-                    b.Property<int?>("SortingOutputId");
-
-                    b.HasKey("ID");
-
-                    b.HasIndex("SortingOutputId");
-
-                    b.ToTable("SortingValuesForOutput");
-                });
-
             modelBuilder.Entity("Challenges.Data.Entities.StringInversion", b =>
                 {
                     b.Property<int>("Id")
@@ -194,15 +156,35 @@ namespace Challenges.Migrations
                     b.ToTable("WhiteSpcaeRemovals");
                 });
 
-            modelBuilder.Entity("Challenges.Data.Entities.SortingValuesForInput", b =>
+            modelBuilder.Entity("Challenges.Model.SortingValues", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Character")
+                        .IsRequired()
+                        .HasConversion(new ValueConverter<string, string>(v => default(string), v => default(string), new ConverterMappingHints(size: 1)));
+
+                    b.Property<int?>("SortingInputId");
+
+                    b.Property<int?>("SortingOutputId");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("SortingInputId");
+
+                    b.HasIndex("SortingOutputId");
+
+                    b.ToTable("SortingValues");
+                });
+
+            modelBuilder.Entity("Challenges.Model.SortingValues", b =>
                 {
                     b.HasOne("Challenges.Data.Entities.SortingInput")
                         .WithMany("InputCharacterCollection")
                         .HasForeignKey("SortingInputId");
-                });
 
-            modelBuilder.Entity("Challenges.Data.Entities.SortingValuesForOutput", b =>
-                {
                     b.HasOne("Challenges.Data.Entities.SortingOutput")
                         .WithMany("OutputCharacterCollection")
                         .HasForeignKey("SortingOutputId");
